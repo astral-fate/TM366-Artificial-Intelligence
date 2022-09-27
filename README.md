@@ -3,7 +3,7 @@
 ## Table of content
 
 1. [Intro-Inference](#Intro-Inference)
-2. [Search](#Search)p
+2. [Search](#Search)
 3. [Game tree and graph pruning](#Game-tree-and-graph-pruning)
 4. [Blocks world and Rejecting symbolic AI](#Blocks-world-and-Rejecting-symbolic-AI)
 5. [AI-inspiration](#AI-inspiration)
