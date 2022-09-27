@@ -1,9 +1,9 @@
 ### Table of content 
 
 1. [Module Objectives](#Module-Objectives)
-2. Uninformed search(#Uninformed-search)
-3. Informed search (#Informed-search)
-4. Games and adversarial search(#Games-and-adversarial-search)
+2. [Uninformed search](#Uninformed-search)
+3. [Informed search](#Informed-search)
+4. [Games and adversarial search](#Games-and-adversarial-search)
 
 
 ## Module Objectives
