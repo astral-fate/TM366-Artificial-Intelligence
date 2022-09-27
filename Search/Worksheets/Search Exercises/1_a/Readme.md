@@ -7,14 +7,14 @@ Given the following search graph, how many states will be visited until reaching
 
 The Goal state is 14
 
-1,
-2,3,
-4,5,6,7,3,
-5,6,7,3,
-11,12,13,6,7,3,
-12,13,6,7,3,
-13,6,7,3,
-6,7,3,
-14,15,16,7,3,
+1, <br />
+2,3, <br />
+4,5,6,7,3, <br />
+5,6,7,3, <br />
+11,12,13,6,7,3, <br />
+12,13,6,7,3, <br />
+13,6,7,3, <br />
+6,7,3, <br />
+14,15,16,7,3, <br />
 
 The number of visited states is 9
