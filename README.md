@@ -19,9 +19,11 @@
 ## Intro-Inference
 ## Search
 
-Informed search
-
-Uniformed search
+This unit introduced Informed search or heuristic search. 
+Uniformed search, or blind search. Then it explores Search algorithms like
+Brute-Force algorithms like Breadth-First search, Breadth-Best Search, Depth-First Search, and A* Search
+for a visulization for the algorithms, you can refer to:
+https://algorithm-visualizer.org/
 
 
 ## Game tree and graph pruning
