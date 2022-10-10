@@ -25,9 +25,9 @@ Brute-Force algorithms like Breadth-First search, Breadth-Best Search, Depth-Fir
 For a visulization for these algorithms, you can refer to:
 https://algorithm-visualizer.org/
 
-Breadth-first search
-Depth first search
-Best search
+Breadth-first search <br>
+Depth first search <br>
+Best search <br>
 A*
 
 
