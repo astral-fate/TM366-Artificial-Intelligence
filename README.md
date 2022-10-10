@@ -25,11 +25,24 @@ Brute-Force algorithms like Breadth-First search, Breadth-Best Search, Depth-Fir
 For a visulization for these algorithms, you can refer to:
 https://algorithm-visualizer.org/
 
+Breadth-first search
+Depth first search
+Best search
+A*
+
 
 ## Game tree and graph pruning
+
+Min-Max, stone game
 ## Blocks world and Rejecting symbolic AI
+
+OnTable(a,b), HandsEmpty()
 ## AI-inspiration
+
+The natural intelligence and animals
 ## ACO and PSO
+Example of natural intelligence is:
+Ant Colony optomization
 ## Neural evaluation
 ## Learning perceptron and delta
 ## Backprop and competitive
