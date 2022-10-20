@@ -33,13 +33,17 @@ A*
 
 ## Game tree and graph pruning
 
-Min-Max, stone game
+using Min-Max with games such as:
+Tic Tac Toe
+Stone game
+
+
 ## Blocks world and Rejecting symbolic AI
 
 OnTable(a,b), HandsEmpty()
 ## AI-inspiration
 
-The natural intelligence and animals
+The natural intelligence and animals; inspired by ants, and birds' swarm
 ## ACO and PSO
 Example of natural intelligence is:
 Ant Colony optomization ACO <br>
