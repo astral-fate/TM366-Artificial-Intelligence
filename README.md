@@ -42,7 +42,8 @@ OnTable(a,b), HandsEmpty()
 The natural intelligence and animals
 ## ACO and PSO
 Example of natural intelligence is:
-Ant Colony optomization
+Ant Colony optomization <br>
+Practical swarm optimization
 ## Neural evaluation
 ## Learning perceptron and delta
 ## Backprop and competitive
