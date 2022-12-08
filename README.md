@@ -52,5 +52,14 @@ Practical swarm optimization PSO
 ## Learning perceptron and delta
 ## Backprop and competitive
 ## GA algorithm
+Genatic Algorithm <br>
+Calculate the over all probability of all values
+Draw Roloutte Wheel
+Calclute Fitness
 ## GA operators
+Mutation
+Mating Pool
 ## RL-Robotics
+Reinforcement Learning 
+Q(state, Action) = Reward(s,a)+ Y(Max(s,a))
+
