@@ -57,8 +57,10 @@ Calculate the over all probability of all values <br>
 Draw Roloutte Wheel <br>
 Calclute Fitness
 ## GA operators
-Mutation <br>
+mutation probability <br>
+When the number is less than the probability we will switch the number to the other value. E.g 0 to 1, and vise versa
 Mating Pool
+mutation probability
 ## RL-Robotics
 Reinforcement Learning <br>
 Q(state, Action) = Reward(s,a)+ Y(Max(s,a))
