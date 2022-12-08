@@ -53,13 +53,13 @@ Practical swarm optimization PSO
 ## Backprop and competitive
 ## GA algorithm
 Genatic Algorithm <br>
-Calculate the over all probability of all values
-Draw Roloutte Wheel
+Calculate the over all probability of all values <br>
+Draw Roloutte Wheel <br>
 Calclute Fitness
 ## GA operators
-Mutation
+Mutation <br>
 Mating Pool
 ## RL-Robotics
-Reinforcement Learning 
+Reinforcement Learning <br>
 Q(state, Action) = Reward(s,a)+ Y(Max(s,a))
 
