@@ -50,6 +50,10 @@ Ant Colony optomization ACO <br>
 Practical swarm optimization PSO
 ## Neural evaluation
 ## Learning perceptron and delta
+
+Hidden layer <b>
+Output layer 
+
 ## Backprop and competitive
 ## GA algorithm
 Genatic Algorithm <br>
