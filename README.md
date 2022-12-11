@@ -53,6 +53,7 @@ Practical swarm optimization PSO
 
 Hidden layer <b>
 Output layer 
+Delta rule
 
 ## Backprop and competitive
 ## GA algorithm
