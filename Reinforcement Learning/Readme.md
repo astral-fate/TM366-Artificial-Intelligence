@@ -33,3 +33,8 @@ One way to address this challenge is through the use of exploration policies, wh
 Another approach to addressing the exploration vs. exploitation dilemma is through the use of multi-armed bandits, which are a type of reinforcement learning problem that involves choosing between a set of actions with unknown rewards. In this type of problem, the agent must balance the need to explore in order to learn about the rewards of different actions with the need to exploit its current knowledge in order to maximize reward.
 
 Overall, reinforcement learning is a powerful tool for training robots to perform complex tasks and adapt to changing environments. It allows robots to learn through trial-and-error and improve their performance over time, making it a key component of many modern robotics systems.
+
+
+ # 	Exploration  Vs. exploitation in RL systems <br> 
+ 
+ Exploration vs. exploitation in RL systems: Exploration refers to the process of trying out new actions or states in order to learn more about the environment and improve the agent's performance. Exploitation refers to the process of using the agent's current knowledge and skills to maximize reward in the short term. In reinforcement learning systems, the agent must balance the need to explore in order to learn and improve with the need to exploit its current knowledge in order to maximize reward. The exploration vs. exploitation dilemma arises because the agent must choose between exploring new actions and states, which may not yield immediate reward, and exploiting its current knowledge, which may not lead to long-term improvement.
