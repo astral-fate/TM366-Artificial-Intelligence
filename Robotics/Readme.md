@@ -38,18 +38,19 @@ GPS vs. differential GPS: GPS (Global Positioning System) is a satellite-based n
 
 #  Robotics software components:
 
-Robots have a wide range of applications, from industrial manufacturing to search and rescue missions, and their capabilities are constantly expanding as technology advances. They have the potential to revolutionize many industries and have the potential to greatly impact our daily lives.
+* Robots have a wide range of applications, from industrial manufacturing to search and rescue missions, and their capabilities are constantly expanding as technology advances. They have the potential to revolutionize many industries and have the potential to greatly impact our daily lives.
 In addition to the hardware components mentioned earlier, there are several software components that are essential for robots to function effectively. These include:
 
-* Robot operating system (ROS): <br>
- This is a software framework that provides common services and tools for robot software development. It is designed to be modular and flexible, allowing developers to easily create and modify robot applications.
+* Robot Operating System (ROS):  <br> 
+ROS is an open-source software platform that is widely used in robotics research and development. It provides a set of tools and libraries for building robotic applications, including libraries for communication, perception, and control. ROS is designed to be modular and scalable, and it is used in a variety of applications, including autonomous vehicles, service robots, and manufacturing.
 
-* Motion planning algorithms: These are used to generate paths for the robot to follow, taking into account the robot's physical constraints and the environment it is operating in. Motion planning algorithms can be used for tasks such as navigating to a specific location or avoiding obstacles.
+* Motion planning algorithms: Motion planning algorithms are algorithms that are used to plan the motion of a robot or other system through an environment. These algorithms take into account the robot's kinematics and dynamics, as well as the constraints and obstacles in the environment, in order to generate a feasible and efficient motion plan. Motion planning algorithms are used in a variety of applications, including robotics, manufacturing, and animation.
 
-* Control algorithms: These algorithms are used to control the robot's actuators (the hardware components that produce motion) and ensure that the robot follows the desired path. Control algorithms can be simple rule-based systems or more complex machine learning algorithms.
+* Control algorithms: <br> 
+Control algorithms are algorithms that are used to control the behavior of a system, such as a robot. These algorithms take in sensor data and use it to compute control signals that are sent to the system's actuators in order to achieve a desired behavior or performance. Control algorithms are used in a variety of applications, including robotics, aerospace, and manufacturing.
 
-* Machine learning algorithms: These algorithms allow robots to learn from experience and improve their performance over time. They are often used for tasks such as object recognition, where the robot needs to identify and classify objects based on sensory data.
-
+* Machine learning algorithms:  <br> 
+Machine learning algorithms are algorithms that are used to learn patterns and relationships in data. These algorithms can be used to make predictions, classify data, or identify trends. There are many different types of machine learning algorithms, including supervised learning, unsupervised learning, and reinforcement learning. Machine learning algorithms are used in a variety of applications, including robotics, data analysis, and artificial intelligence.
 
 
 
