@@ -5,6 +5,8 @@ Genetic algorithms (GAs) are a type of computational technique that can be used 
 
 
 
+# Darwin Vs. Lamarck
+
 # Optimial selection problems 
 
 One type of problem that can be solved using GAs is the roulette wheel problem, which involves finding the optimal selection of items from a set of options. For example, suppose you have a set of items with different weights and values, and you want to select a subset of items that maximizes the total value while staying within a certain weight limit. You could use a GA to find the optimal selection of items by representing each selection as a chromosome and evolving the chromosomes through a process of selection, crossover, and mutation. <br>
