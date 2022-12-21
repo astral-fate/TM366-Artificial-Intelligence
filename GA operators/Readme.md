@@ -9,3 +9,10 @@ One approach to addressing the bootstrap problem is called "incremental evolutio
 
 # co-evolution
 An alternative approach is "co-evolution," where multiple solutions evolve in competition with each other. This can be thought of as an arms race, where one solution evolves to better compete with the other, and vice versa. This can help drive the GA to find better solutions, as the solutions are constantly adapting to each other.
+
+
+# Introducing diversity
+
+## Mutation 
+
+## Crossover
