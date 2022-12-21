@@ -42,6 +42,8 @@ Despite their simplicity and usefulness in certain applications, single-layer pe
 
 Multi-layer perceptrons are a type of artificial neural network that consist of multiple layers of neurons. They are more powerful and effective than single-layer perceptrons because they can process more complex relationships.
 
+
+
 The structure of a multi-layer perceptron consists of an input layer, one or more hidden layers, and an output layer. The input layer receives the input data, the hidden layers process the data, and the output layer produces the final output.
 
 ##  error backpropagation.
@@ -72,3 +74,13 @@ Cascade correlation networks are a type of artificial neural network that can le
 Radial basis function networks are a type of artificial neural network that use radial basis functions as their activation function. They are particularly useful for solving problems with continuous inputs and outputs, such as function approximation and time series prediction.
 
 
+#  Neural topology
+
+* Feedforward: <br>
+This is the most common network topology, where the units are arranged in layers and all units in a layer are connected to all units in the next layer, but not to units in other layers or within the same layer.
+
+* Recurrent: <br> 
+This type of network has connections between units that form a directed cycle, which allows the network to process sequences of inputs and maintain information over time.
+
+* Modular:  <br>
+This type of network consists of multiple sub-networks, or modules, that are connected to each other and can process different aspects of the input data independently. Modular networks can be used to decompose complex tasks into simpler subtasks and improve the overall performance of the network.
