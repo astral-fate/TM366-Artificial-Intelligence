@@ -5,7 +5,7 @@ Genetic algorithms (GAs) are a type of computational technique that can be used 
 
 
 
-# Darwin Vs. Lamarck
+# Darwinian evolution
 
 
  3 principles of the Darwinian evolution.
