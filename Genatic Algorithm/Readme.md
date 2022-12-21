@@ -4,7 +4,7 @@
 Genetic algorithms (GAs) are a type of computational technique that can be used to solve a wide range of problems. GAs work by simulating the process of natural evolution to find the optimal solution to a problem.
 
 
-
+# Lamarckian evolution
 # Darwinian evolution
 
 
