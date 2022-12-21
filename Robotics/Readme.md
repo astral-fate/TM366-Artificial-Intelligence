@@ -5,7 +5,7 @@ Robotics is the field of engineering that focuses on the design and development 
 Robots are also equipped with sensors, which allow them to perceive their environment and gather information about it. These sensors can include cameras and lasers for measuring the environment, and gyroscopes and accelerometers for measuring the robot's own motion.
 
 There are three main categories of robots: <br>
-* manipulators <b> <br>
+*<b> manipulators <b> <br>
         Manipulators, or robot arms, are anchored to a specific workplace and use a chain of controllable joints to move their effectors to any position within that           workplace. They are commonly used in industrial settings, including car manufacturing and assembly lines, and some are even used in surgical procedures.               Mobile robots,
 *  mobile robots <b>  <br>
           move around their environment using wheels, legs, or other mechanisms and can be used for tasks such as delivering food in hospitals and moving containers             at loading docks.
@@ -22,9 +22,9 @@ In addition to the hardware components mentioned earlier, there are several soft
 
 Robot operating system (ROS): This is a software framework that provides common services and tools for robot software development. It is designed to be modular and flexible, allowing developers to easily create and modify robot applications.
 
-Motion planning algorithms: These are used to generate paths for the robot to follow, taking into account the robot's physical constraints and the environment it is operating in. Motion planning algorithms can be used for tasks such as navigating to a specific location or avoiding obstacles.
+<b>Motion planning algorithms<b>: These are used to generate paths for the robot to follow, taking into account the robot's physical constraints and the environment it is operating in. Motion planning algorithms can be used for tasks such as navigating to a specific location or avoiding obstacles.
 
-Control algorithms: These algorithms are used to control the robot's actuators (the hardware components that produce motion) and ensure that the robot follows the desired path. Control algorithms can be simple rule-based systems or more complex machine learning algorithms.
+<b> Control algorithms<b>: These algorithms are used to control the robot's actuators (the hardware components that produce motion) and ensure that the robot follows the desired path. Control algorithms can be simple rule-based systems or more complex machine learning algorithms.
 
 Machine learning algorithms: These algorithms allow robots to learn from experience and improve their performance over time. They are often used for tasks such as object recognition, where the robot needs to identify and classify objects based on sensory data.
 
