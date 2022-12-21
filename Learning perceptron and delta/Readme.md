@@ -76,13 +76,15 @@ Radial basis function networks are a type of artificial neural network that use 
 
 #  Neural topology
 
+
 * Feedforward: <br>
-This is the most common network topology, where the units are arranged in layers and all units in a layer are connected to all units in the next layer, but not to units in other layers or within the same layer. Activity in a feedforward network flows from the input layer through to the output layer.
+In a layered network topology, there are multiple layers of units, with all units in a layer connected to all units in the next layer, but not to units in other layers or within the same layer. The activity flows from the input layer through to the output layer in a feedforward manner. This type of network is commonly used for classification tasks, as it is able to process the input data and make a prediction based on the weights of the connections between the units.This is the most common network topology, where the units are arranged in layers and all units in a layer are connected to all units in the next layer, but not to units in other layers or within the same layer. Activity in a feedforward network flows from the input layer through to the output layer.
+- application: classification 
 
 * Lattice: <br>
-This type of network has units arranged in a single sheet, with excitatory and inhibitory connections between them. Units tend to excite other units in their neighborhood and inhibit those further away.
+In a lattice network topology, the units are arranged in a single sheet, with excitatory and inhibitory connections between them. Units tend to excite other units in their neighborhood and inhibit those further away. This type of network is useful for modeling spatial patterns, as it is able to capture the relationships between units based on their proximity to each other. This type of network has units arranged in a single sheet, with excitatory and inhibitory connections between them. Units tend to excite other units in their neighborhood and inhibit those further away.
 
 * Recurrent: <br>
-This type of network has units that feed activity back to other units, except to themselves. There are delays on the feedback links, such that all feedback is synchronized. Recurrent networks have dynamic behavior.
+In a recurrent network topology, the units feed activity back to other units, except to themselves. There are delays on the feedback links, such that all feedback is synchronized. This allows the network to process sequences of data and maintain information over time, as the activity of the units is influenced by the activity of the units in previous time steps. Recurrent networks have dynamic behavior, meaning that they can exhibit complex temporal patterns of activity. This type of network is well-suited for tasks such as language modeling and time series prediction. This type of network has units that feed activity back to other units, except to themselves. There are delays on the feedback links, such that all feedback is synchronized. Recurrent networks have dynamic behavior.
 
 Each of these network topologies has its own unique features and can be used for different types of tasks and applications. For example, feedforward networks are commonly used for classification tasks, lattice networks are useful for modeling spatial patterns, and recurrent networks are well-suited for processing sequences of data and maintaining information over time.
