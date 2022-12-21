@@ -29,3 +29,8 @@ Robot operating system (ROS): This is a software framework that provides common 
 Machine learning algorithms: These algorithms allow robots to learn from experience and improve their performance over time. They are often used for tasks such as object recognition, where the robot needs to identify and classify objects based on sensory data.
 
 Robotics is a rapidly evolving field with numerous applications in a wide range of industries, including manufacturing, healthcare, transportation, and entertainment. As robots become more advanced and sophisticated, they will continue to play an increasingly important role in our daily lives.
+
+
+# GPS vs. differential GPS
+
+GPS vs. differential GPS: GPS (Global Positioning System) is a satellite-based navigation system that measures the distance to satellites emitting pulsed signals. It is used to determine the location of a GPS receiver on Earth. Differential GPS (DGPS) involves a second ground receiver with a known location, which is used to improve the accuracy of the location measurement. DGPS can achieve higher accuracy than GPS alone, but it requires the use of additional hardware and may be subject to interference or other errors.
