@@ -14,5 +14,6 @@ An alternative approach is "co-evolution," where multiple solutions evolve in co
 # Introducing diversity
 
 ## Mutation 
+for instance the sequence ACGT is copied as TGCA. 
 
 ## Crossover
