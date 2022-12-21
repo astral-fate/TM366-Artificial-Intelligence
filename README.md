@@ -13,7 +13,8 @@
 9. [Backprop and competitive](#Backprop-and-competitive)
 10. [GA algorithm](#GA-algorithm)
 11. [GA operators](#GA-operators)
-12. [RL-Robotics](#RL-Robotics)
+12. [Reinforcement Learning](#Reinforcement-Learning)
+13. [Robotics](#Robotics)
 
 
 ## Intro-Inference
@@ -67,7 +68,8 @@ mutation probability <br>
 When the number is less than the probability we will switch the number to the other value. E.g 0 to 1, and vise versa
 Mating Pool
 mutation probability
-## RL-Robotics
+## Reinforcement Learning 
 Reinforcement Learning <br>
 Q(state, Action) = Reward(s,a)+ Y(Max(s,a))
 
+## Robotics
