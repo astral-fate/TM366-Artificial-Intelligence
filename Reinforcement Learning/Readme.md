@@ -1,5 +1,5 @@
 
-##Study Notes 
+# Study Notes 
 
 Reinforcement learning is a type of machine learning that focuses on how an agent (a software program or physical device) should act and behave in a given environment in order to maximize a numerical reward signal. This is done by giving the agent rewards or punishments based on the actions it has taken in different scenarios. The goal of reinforcement learning is to learn through experience and improve the agent's ability to behave optimally in order to achieve a goal.
 
