@@ -78,8 +78,8 @@ Radial basis function networks are a type of artificial neural network that use 
 
 
 * Feedforward: <br>
-In a layered network topology, there are multiple layers of units, with all units in a layer connected to all units in the next layer, but not to units in other layers or within the same layer. The activity flows from the input layer through to the output layer in a feedforward manner. This type of network is commonly used for classification tasks, as it is able to process the input data and make a prediction based on the weights of the connections between the units.This is the most common network topology, where the units are arranged in layers and all units in a layer are connected to all units in the next layer, but not to units in other layers or within the same layer. Activity in a feedforward network flows from the input layer through to the output layer.
-- application: classification 
+This is the most common network topology. In a layered network topology, there are multiple layers of units, with all units in a layer connected to all units in the next layer, but not to units in other layers or within the same layer. The activity flows from the input layer through to the output layer in a feedforward manner. This type of network is commonly used for classification tasks, as it is able to process the input data and make a prediction based on the weights of the connections between the units. 
+-- application: classification 
 
 * Lattice: <br>
 In a lattice network topology, the units are arranged in a single sheet, with excitatory and inhibitory connections between them. Units tend to excite other units in their neighborhood and inhibit those further away. This type of network is useful for modeling spatial patterns, as it is able to capture the relationships between units based on their proximity to each other. This type of network has units arranged in a single sheet, with excitatory and inhibitory connections between them. Units tend to excite other units in their neighborhood and inhibit those further away.
