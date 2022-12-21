@@ -22,7 +22,7 @@ When a neuron receives a signal from another neuron, it generates an action pote
 
 At a synapse, the action potential causes the release of neurotransmitters, which bind to receptors on the receiving neuron and either excite or inhibit it. This process is called neurotransmission. Long-term potentiation is a process by which the strength of a synapse is increased, resulting in more efficient communication between neurons.
 
-## Neural network in deep learning 
+# Neural network in deep learning 
 
 In an artificial neural network, units are the basic processing elements that perform computation based on the input data and weights. The input function determines how the input data is processed before it is passed to the units. The activation function is a mathematical function that determines the output of the units based on their inputs and weights. Weights are values that determine the strength of the connections between units. Different topologies can be used to arrange the units and weights in an artificial neural network, such as feedforward, lattice, and recurrent.
 
