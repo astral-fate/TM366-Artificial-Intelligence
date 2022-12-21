@@ -14,13 +14,13 @@ Single-layer perceptrons can be used to perform simple operations such as comput
 
 However, single-layer perceptrons have limitations in their ability to solve more complex problems and are not able to process non-linear relationships. This is because they only have a single layer of neurons, and thus cannot capture the complexity of more advanced relationships.
 
-Geometry: input space
+## Geometry: input space
 
 The input space of a single-layer perceptron refers to the range of possible input values that the network can receive. If the input values can only be the integer values 1 or 0, as they would be in a truth table computation, then the only parts of the space that are available are the four corners of the square labeled in the figure: (x1 = 0, x2 = 0), (x1 = 1, x2 = 0), (x1 = 0, x2 = 1) and (x1 = 1, x2 = 1). However, if the input values can take real number values, then a possible input can be any point within the whole of the space depicted.
 
 When the system classifies its inputs, it is dividing or partitioning the space of inputs into two parts. This partitioning line is quite arbitrary and there are countless other lines that could have been drawn that would do just as well. However, in what sense, then, is our perceptron learning? It is learning to draw the line that best separates the two classes of inputs.
 
-Geometry: weight space
+## Geometry: weight space
 
 The weight space of a single-layer perceptron refers to the range of possible values for the weights of the connections between the input units and the main unit. The weights of the connections can be adjusted to modify the behavior of the network.
 
