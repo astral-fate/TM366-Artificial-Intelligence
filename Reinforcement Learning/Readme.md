@@ -7,19 +7,20 @@ One of the key features of reinforcement learning is the idea of trial-and-error
 
 One of the challenges in reinforcement learning is the exploration vs. exploitation dilemma, where the agent must balance the need to exploit its current knowledge in order to obtain reward with the need to explore in order to make better action selections in the future.
 
-There are four main subelements of a reinforcement learning system: 
-1. Policy
+There are four main subelements of a reinforcement learning system:
+
+1. Policy <br>
 
 
-2. Reward function
+2. Reward function <br>
           The policy defines the learning agent's way of behaving at a given time, the reward function maps states or state-action pairs to a single number indicating             the desirability of that state.
           
-3. Value function
+3. Value function <br>
 
        the value function specifies what is good in the long run by mapping states to the total amount of reward an agent can expect to accumulate over the future,
 
  
-4. Model of the environment. 
+4. Model of the environment <br> 
       the model of the environment allows the agent to predict the consequences of its actions.
 
 
