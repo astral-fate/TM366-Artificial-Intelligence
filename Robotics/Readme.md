@@ -13,6 +13,13 @@ There are three main categories of robots: <br>
 *  mobile manipulators  <br>
           Mobile manipulators are a combination of both, combining mobility with manipulation capabilities.
 
+
+# Types of Robotics hardware components and sensors:
+
+* Range finders e.g GPS
+* passive sensors
+* tactile sensors
+
 Real robots must be able to cope with complex and dynamic environments that are often partially observable, stochastic, and continuous. They also often operate in sequential and multiagent environments. To navigate these environments, robots are equipped with a variety of sensors, including passive sensors like cameras and active sensors like sonar. Range finders, such as GPS, are used to determine the location of the robot, while tactile sensors like whiskers and touch-sensitive skin allow the robot to sense objects in close proximity.
 
 In order to make decisions and perform tasks, robots rely on control systems that process the data gathered by their sensors. These control systems can range from simple rule-based systems to more complex machine learning algorithms. The design and implementation of these control systems is a key aspect of robotics engineering.
@@ -22,9 +29,9 @@ In addition to the hardware components mentioned earlier, there are several soft
 
 Robot operating system (ROS): This is a software framework that provides common services and tools for robot software development. It is designed to be modular and flexible, allowing developers to easily create and modify robot applications.
 
-<b>Motion planning algorithms<b>: These are used to generate paths for the robot to follow, taking into account the robot's physical constraints and the environment it is operating in. Motion planning algorithms can be used for tasks such as navigating to a specific location or avoiding obstacles.
+Motion planning algorithms: These are used to generate paths for the robot to follow, taking into account the robot's physical constraints and the environment it is operating in. Motion planning algorithms can be used for tasks such as navigating to a specific location or avoiding obstacles.
 
-<b> Control algorithms<b>: These algorithms are used to control the robot's actuators (the hardware components that produce motion) and ensure that the robot follows the desired path. Control algorithms can be simple rule-based systems or more complex machine learning algorithms.
+Control algorithms: These algorithms are used to control the robot's actuators (the hardware components that produce motion) and ensure that the robot follows the desired path. Control algorithms can be simple rule-based systems or more complex machine learning algorithms.
 
 Machine learning algorithms: These algorithms allow robots to learn from experience and improve their performance over time. They are often used for tasks such as object recognition, where the robot needs to identify and classify objects based on sensory data.
 
