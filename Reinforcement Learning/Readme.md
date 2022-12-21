@@ -7,6 +7,8 @@ One of the key features of reinforcement learning is the idea of trial-and-error
 
 One of the challenges in reinforcement learning is the exploration vs. exploitation dilemma, where the agent must balance the need to exploit its current knowledge in order to obtain reward with the need to explore in order to make better action selections in the future.
 
+
+# Subelements of a reinforcement learning system
 There are four main subelements of a reinforcement learning system:
 
 * Policy:  <br>
@@ -18,6 +20,7 @@ The policy is the set of rules or associations that a reinforcement learning age
 * Value function: <br>
 The value function specifies the long-term value of a state or action for a reinforcement learning agent. It maps states to the total amount of reward an agent can expect to accumulate over the future, starting from that state. The value function helps the agent decide which actions to take in order to maximize its reward over the long term.
 
+# Reinforcement learning applications
 
 Reinforcement learning has numerous applications in robotics, including:
 * control of autonomous vehicles
