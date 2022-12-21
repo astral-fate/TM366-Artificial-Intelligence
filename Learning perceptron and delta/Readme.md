@@ -24,24 +24,51 @@ Geometry: weight space
 
 The weight space of a single-layer perceptron refers to the range of possible values for the weights of the connections between the input units and the main unit. The weights of the connections can be adjusted to modify the behavior of the network.
 
-Learning in perceptrons
+# single-layer perceptrons training
 
-There are two main training strategies for single-layer perceptrons: the perceptron rule and the delta rule.
-
+There are two main training strategies for single-layer perceptrons: 
+* The perceptron rule  <br>
 The perceptron rule is a simple algorithm for adjusting the weights of the connections between the input units and the main unit in a single-layer perceptron. It is based on the idea of minimizing the error between the predicted output and the actual output.
+
+* The delta rule <br>
 
 The delta rule is a more general training algorithm that can be applied to any single-layer perceptron, regardless of the specific threshold function used. It is based on the idea of minimizing the error between the predicted output and the actual output by adjusting the weights of the connections between the input units and the main unit.
 
-Limitations of single-layer perceptrons
+## Limitations of single-layer perceptrons
 
 Despite their simplicity and usefulness in certain applications, single-layer perceptrons have several limitations. They are not able to process non-linear relationships and are therefore not suitable for solving more complex problems. They also have difficulty learning to classify patterns that are not linearly separable.
 
-Multi-layer perceptrons
+# Multi-layer perceptrons
 
 Multi-layer perceptrons are a type of artificial neural network that consist of multiple layers of neurons. They are more powerful and effective than single-layer perceptrons because they can process more complex relationships.
 
-The structure of a multi-layer perceptron consists of an
+The structure of a multi-layer perceptron consists of an input layer, one or more hidden layers, and an output layer. The input layer receives the input data, the hidden layers process the data, and the output layer produces the final output.
 
-Single layer perceptron 
+##  error backpropagation.
 
-Delta rule
+One of the most well-known training algorithms for multi-layer perceptrons is error backpropagation. This algorithm adjusts the weights of the connections between the neurons in the network based on the error between the predicted and actual output.
+
+The process of error backpropagation involves the following steps:
+
+Forward propagation: The input data is passed through the network, layer by layer, and the output of each neuron is calculated based on the weights of its connections and a non-linear activation function.
+
+Calculating the error: The error between the predicted output and the actual output is calculated.
+
+## Backward propagation: <br>
+The error is backpropagated through the network, layer by layer, and the weights of the connections between the neurons are adjusted based on the error and a learning rate.
+
+Repeat: The process is repeated until the error is minimized or reaches a satisfactory level.
+
+The error surface of a multi-layer perceptron refers to the landscape of possible weight configurations and the corresponding error values. The goal of the error backpropagation algorithm is to find the weights that result in the lowest error, or the global minimum of the error surface.
+
+There are several factors that can affect the training of a multi-layer perceptron using error backpropagation, such as the learning rate, the choice of activation function, and the number of hidden layers and neurons.
+
+## Alternatives to backpropagation
+
+There are several alternatives to error backpropagation for training multi-layer perceptrons, such as cascade correlation networks and radial basis function networks.
+
+Cascade correlation networks are a type of artificial neural network that can learn to add new neurons to the network during training. This allows them to adapt to changing data and improve their performance over time.
+
+Radial basis function networks are a type of artificial neural network that use radial basis functions as their activation function. They are particularly useful for solving problems with continuous inputs and outputs, such as function approximation and time series prediction.
+
+
