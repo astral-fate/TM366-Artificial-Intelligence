@@ -9,21 +9,14 @@ One of the challenges in reinforcement learning is the exploration vs. exploitat
 
 There are four main subelements of a reinforcement learning system:
 
-1. Policy <br>
+* Policy:  <br>
+The policy is the set of rules or associations that a reinforcement learning agent follows to determine its behavior at a given time. It is a mapping from perceived states of the environment to actions to be taken when in those states. The policy is the core of a reinforcement learning agent and determines how it will behave.
 
+* Reward function:  <br>
+ The reward function is a measure of how well the agent is doing in achieving its goal. It maps states or state-action pairs to a single number indicating the desirability of that state. The goal of a reinforcement learning agent is to maximize the total reward it receives over time, and the reward function defines what are the good and bad events for the agent.
 
-2. Reward function <br>
-          The policy defines the learning agent's way of behaving at a given time, the reward function maps states or state-action pairs to a single number indicating             the desirability of that state.
-          
-3. Value function <br>
-
-       the value function specifies what is good in the long run by mapping states to the total amount of reward an agent can expect to accumulate over the future,
-
- 
-4. Model of the environment <br> 
-      the model of the environment allows the agent to predict the consequences of its actions.
-
-
+* Value function: <br>
+The value function specifies the long-term value of a state or action for a reinforcement learning agent. It maps states to the total amount of reward an agent can expect to accumulate over the future, starting from that state. The value function helps the agent decide which actions to take in order to maximize its reward over the long term.
 
 
 Reinforcement learning has numerous applications in robotics, including:
