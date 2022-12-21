@@ -26,11 +26,6 @@ At a synapse, the action potential causes the release of neurotransmitters, whic
 
 In an artificial neural network, units are the basic processing elements that perform computation based on the input data and weights. The input function determines how the input data is processed before it is passed to the units. The activation function is a mathematical function that determines the output of the units based on their inputs and weights. Weights are values that determine the strength of the connections between units. Different topologies can be used to arrange the units and weights in an artificial neural network, such as feedforward, lattice, and recurrent.
 
-#  Learning Rules
-
-A learning rule is a set of instructions that determines how the weights of a neural network should be adjusted based on the input data and the desired output. For example, 
-* The backpropagation algorithm: <br>
-is a learning rule that adjusts the weights based on the error between the predicted output and the actual output. Mathematical representations, such as signal graphs, sigma notation, and vector/matrix notation, can be used to represent and analyze neural network concepts.
 
 
 # Single-layer perceptron
@@ -39,9 +34,15 @@ A single-layer perceptron is a type of artificial neural network that consists o
 
 The input space of a single-layer perceptron is the set of all possible inputs that the perceptron can receive. If the inputs are limited to certain values, such as 1 or 0, the input space is restricted to specific points in the space. However, if the inputs can take real number values, the input space is the entire space. When a single-layer perceptron classifies its inputs, it is effectively dividing the input space into two parts, with one group of inputs resulting in an activation of 1 and the other group resulting in an activation of 0.
 
-In the weight space of a single-layer perceptron, the weight vector represents the weights of the connections between the input units and the main unit. The weight vector can be adjusted during the learning process to improve the accuracy of the perceptron's output. There are two main learning strategies for single-layer perceptrons: the perceptron rule and the delta rule. The perceptron rule adjusts the weight vector based on the error between the desired output and the actual output of the perceptron, while the delta rule uses gradient descent to adjust the weight vector.
+In the weight space of a single-layer perceptron, the weight vector represents the weights of the connections between the input units and the main unit. The weight vector can be adjusted during the learning process to improve the accuracy of the perceptron's output.<br>
+
+
+##  Learning Rules
+
+A learning rule is a set of instructions that determines how the weights of a neural network should be adjusted based on the input data and the desired output. There are two main learning strategies for single-layer perceptrons: the perceptron rule and the delta rule. The perceptron rule adjusts the weight vector based on the error between the desired output and the actual output of the perceptron, while the delta rule uses gradient descent to adjust the weight vector.
 
 #  Multi-layer perceptrons
 
-Multi-layer perceptrons also known as fully connected neural networks, are more complex than single-layer perceptrons and consist of multiple layers of neurons, with the neurons in one layer connected to all the neurons in the next layer. One of the most common learning strategies for multi-layer perceptrons is error backpropagation, which involves adjusting the weights of the connections between the neurons based on the error between the desired output and the actual output of the network. There are also other training strategies for multi-layer perceptrons, such as cascade correlation networks and radial basis function networks.
+Multi-layer perceptrons also known as fully connected neural networks, are more complex than single-layer perceptrons and consist of multiple layers of neurons, with the neurons in one layer connected to all the neurons in the next layer. One of the most common learning strategies for multi-layer perceptrons is error backpropagation, which involves adjusting the weights of the connections between the neurons based on the error between the desired output and the actual output of the network. There are also other training strategies for multi-layer perceptrons, such as cascade correlation networks and radial basis function networks. And the backpropagation algorithm, which is a learning rule that adjusts the weights based on the error between the predicted output and the actual output. Mathematical representations, such as signal graphs, sigma notation, and vector/matrix notation, can be used to represent and analyze neural network concepts.
+
 
