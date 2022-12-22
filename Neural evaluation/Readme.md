@@ -49,14 +49,14 @@ Multi-layer perceptrons also known as fully connected neural networks, are more 
 # Quizes
 
 
-1. calculates how active the unit will become on the basis of the total it has received from the input area.
-[]. Activation area
-[]. Input area
-[]. Output area
-[]. None of the above
+### 1. calculates how active the unit will become on the basis of the total it has received from the input area.
+- [X]  Activation area
+- [ ]  Input area
+- [ ]  Output area
+- [ ]  None of the above
 
 
-
-
+  
+ 
 
 
