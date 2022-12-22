@@ -12,7 +12,7 @@
 
 ## Overview
 
-In this unit, you will learn about neural networks, which are artificial systems that are inspired by the structure and function of the human brain. Neural networks are able to recognize patterns, classify stimuli, and select appropriate responses, similar to how the human brain does. They consist of special cells called <b>neurons</b>, which communicate with each other through junctions called synapses. The nervous system can be divided into the central nervous system (CNS) and the peripheral nervous system (PNS). The CNS consists of the brain and spinal cord, while the PNS consists of all other nerves. Neural networks can be arranged in different topologies, including feedforward, lattice, and recurrent. They can be trained using <b> learning rules </b>, which adjust the weights of the connections between units based on the input data and the
+In this unit, you will learn about neural networks, which are artificial systems that are inspired by the structure and function of the human brain. Neural networks are able to recognize patterns, classify stimuli, and select appropriate responses, similar to how the human brain does. They consist of special cells called <b>neurons</b>, which communicate with each other through junctions called <b> synapse <\b>. The nervous system can be divided into the central nervous system (CNS) and the peripheral nervous system (PNS). The CNS consists of the brain and spinal cord, while the PNS consists of all other nerves. Neural networks can be arranged in different topologies, including feedforward, lattice, and recurrent. They can be trained using <b> learning rules </b>, which adjust the weights of the connections between units based on the input data and the
 
 # Biological background of the nervous system
 
@@ -44,5 +44,19 @@ A learning rule is a set of instructions that determines how the weights of a ne
 #  Multi-layer perceptrons
 
 Multi-layer perceptrons also known as fully connected neural networks, are more complex than single-layer perceptrons and consist of multiple layers of neurons, with the neurons in one layer connected to all the neurons in the next layer. One of the most common learning strategies for multi-layer perceptrons is error backpropagation, which involves adjusting the weights of the connections between the neurons based on the error between the desired output and the actual output of the network. There are also other training strategies for multi-layer perceptrons, such as cascade correlation networks and radial basis function networks. And the backpropagation algorithm, which is a learning rule that adjusts the weights based on the error between the predicted output and the actual output. Mathematical representations, such as signal graphs, sigma notation, and vector/matrix notation, can be used to represent and analyze neural network concepts.
+
+
+# Quizes
+
+
+1. calculates how active the unit will become on the basis of the total it has received from the input area.
+[]. Activation area
+[]. Input area
+[]. Output area
+[]. None of the above
+
+
+
+
 
 
